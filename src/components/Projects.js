@@ -108,7 +108,7 @@ export const Projects = () => {
                 </Row>
             </Container>
 
-<img className = "background-image-right" src = {colorSharp2}/>
+<img className = "background-image-right" src = {colorSharp2} alt = "back gound"/>
 
         </section>
     )

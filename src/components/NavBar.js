@@ -34,7 +34,7 @@ const onUpdateActiveLink = (value) => {
         <Navbar expand="md" className= {scrolled ? "scrolled" :""}>
         <Container>
         <Navbar.Brand href="/">
-            <img src = {logo} />
+            <img src = {logo}  alt = "logo"/>
          </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span className="navbar-toggler-icon"></span>
@@ -59,9 +59,9 @@ const onUpdateActiveLink = (value) => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-                <a href="https://www.linkedin.com/in/solomon-yalew-86b03a257/" target="_blank"><img src = {navIcon1} alt=""/></a>
-                <a href="#"><img src = {navIcon2} alt=""/></a>
-                <a href="#"><img src = {navIcon3} alt=""/></a>
+                <a href="https://www.linkedin.com/in/solomon-yalew-86b03a257/" rel="noreferrer" target="_blank"><img src = {navIcon1} alt="LinkedIn"/></a>
+                <a href="https://www.linkedin.com/in/solomon-yalew-86b03a257/"><img src = {navIcon2} alt = "Facebook"/></a>
+                <a href="https://www.linkedin.com/in/solomon-yalew-86b03a257/"><img src = {navIcon3} alt = "Instagram"/></a>
 
             </div>
             <HashLink to = '#connect'>

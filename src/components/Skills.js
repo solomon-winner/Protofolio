@@ -31,7 +31,7 @@ export const Skills = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
-                            <p>HTML, Css, React, Nodejs, Express, MySQL
+                            <p>HTML, Css, React, Nodejs, Express, MySQL, MongoDB, Flutter
                                 <br></br>
                              
                              </p>
@@ -56,6 +56,14 @@ export const Skills = () => {
                                 <div className="item">
                                     <img src= {meter1} alt = "Skill" />
                                     <h5>MySQL</h5>
+                                </div>
+                                <div className="item">
+                                    <img src= {meter1} alt = "Skill" />
+                                    <h5>MongoDB</h5>
+                                </div>
+                                <div className="item">
+                                    <img src= {meter1} alt = "Skill" />
+                                    <h5>Flutter</h5>
                                 </div>
                              </Carousel>
                         </div>

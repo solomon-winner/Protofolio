@@ -4,6 +4,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import TrackVisibility from "react-on-screen";
 import Social from "../assets/img/Social_Media.png"
 import Commerce from "../assets/img/E-commerce.png"
+import Brana from "../assets/img/brana.png"
+import Tbrr from "../assets/img/tbrr.png"
+import Begena from "../assets/img/Begena.png"
 import "animate.css"
 
 export const Projects = () => {
@@ -20,7 +23,30 @@ export const Projects = () => {
             imgUrl: Commerce,
             Link: "https://github.com/solomon-winner/E-commerce.git"
           },
-          
+          {
+            title: "Ethiopian tree based restoration registry",
+            description: "Developed a comprehensive web application for the Prime Minister's Office of Ethiopia to manage data on deforested areas. The platform includes information about local inhabitants and tree species, leveraging React for the frontend and ArcGIS for advanced map management including a dashboard.",
+            imgUrl: Commerce,
+            Link: "https://ethtbrr.net/"
+          },
+          {
+            title: "Ethiopian tree based restoration registry",
+            description: "Developed a comprehensive web application for the Prime Minister's Office of Ethiopia to manage data on deforested areas. The platform includes information about local inhabitants and tree species, leveraging React for the frontend and ArcGIS for advanced map management including a dashboard.",
+            imgUrl: Tbrr,
+            Link: "https://ethtbrr.net/"
+          },
+          {
+            title: "Brana",
+            description: "Brana is a mobile bookstore application that enables users to browse, order, and receive books through a delivery service. The app's frontend is built with Flutter, the backend is powered by Node.js, and it utilizes MongoDB for data management.",
+            imgUrl: Brana,
+            Link: "https://github.com/solomon-winner/brana"
+          },
+          {
+            title: "Begena",
+            description: "Begena Designed and implemented a song management system to organize and store information about songs, albums, and artists. Built with TypeScript for the frontend, Node.js for the backend, and MongoDB as the database for efficient data handling.",
+            imgUrl: Begena,
+            Link: "https://github.com/solomon-winner/SongInfo"
+          },
     ];
 
     return (

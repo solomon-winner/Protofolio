@@ -2,8 +2,9 @@ import {Navbar,Container, Nav} from "react-bootstrap";
 import logo from "../assets/img/Sologo.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
 import {HashLink} from 'react-router-hash-link';
+import { FaGithub } from "react-icons/fa6";
+import Git from "../assets/img/git.svg";
 
 import {BrowserRouter as Router} from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -61,10 +62,10 @@ const onUpdateActiveLink = (value) => {
             <div className="social-icon">
                 <a href="https://www.linkedin.com/in/solomon-yalew-86b03a257/" rel="noreferrer" target="_blank"><img src = {navIcon1} alt="LinkedIn"/></a>
                 <a href="https://www.linkedin.com/in/solomon-yalew-86b03a257/"><img src = {navIcon2} alt = "Facebook"/></a>
-                <a href="https://www.linkedin.com/in/solomon-yalew-86b03a257/"><img src = {navIcon3} alt = "Instagram"/></a>
+                <a href="https://github.com/solomon-winner"><img src = {Git} alt = "github"/></a>
 
             </div>
-            <HashLink to = '#connect'>
+            <HashLink to = "mailto:solomonyalew664@gmail.com">
                 <button className="vvd"><span>Let's Connect</span></button>
             </HashLink>
           </span>
